@@ -11,11 +11,12 @@ Surveys, analysis, project coordinator<br />
 Surveys, undergraduate researcher
 
 ## Enrolled Farms
-Cow Creek - 400 acres<br />
-Craver Trust - 200 acres<br />
-D & Q - 80 acres<br />
-J & W - 160 acres<br />
-R Wildflower & Fields - 160 acres
+**Certified Organic**
+Cow Creek (400 acres)<br />
+Craver Trust (200 acres)<br />
+D & Q (80 acres)<br />
+J & W (160 acres)<br />
+R Wildflower & Fields (160 acres)
 
 ## Results 
 (updated 5/27/2020)
