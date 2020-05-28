@@ -11,7 +11,7 @@ Surveys, analysis, project coordinator<br />
 Surveys, undergraduate researcher
 
 ## Enrolled Farms
-**Certified Organic**
+**Certified Organic**<br />
 Cow Creek (400 acres)<br />
 Craver Trust (200 acres)<br />
 D & Q (80 acres)<br />
