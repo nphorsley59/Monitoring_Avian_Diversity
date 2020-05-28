@@ -11,14 +11,16 @@ Surveys, analysis, project coordinator<br />
 Surveys, undergraduate researcher
 
 ## Enrolled Farms
-Cow Creek<br />
-Craver Trust<br />
-D & Q<br />
-J & W<br />
-R Wildflower & Fields
-
-## Resources
-https://www.birdpop.org/docs/misc/Alpha_codes_eng.pdf
+Cow Creek - 400 acres<br />
+Craver Trust - 200 acres<br />
+D & Q - 80 acres<br />
+J & W - 160 acres<br />
+R Wildflower & Fields - 160 acres
 
 ## Results 
 (updated 5/27/2020)
+
+## Analysis Resources
+https://www.birdpop.org/docs/misc/Alpha_codes_eng.pdf
+
+
