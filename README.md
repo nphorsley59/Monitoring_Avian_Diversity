@@ -10,9 +10,6 @@ Surveys, analysis, project coordinator<br />
 **Colin Dobson - cdobson2@illinois.edu**<br />
 Surveys, undergraduate researcher
 
-https://nres.illinois.edu/<br />
-https://www.cowcreekorganics.com/about
-
 ## Enrolled Farms
 Cow Creek (400 acres)<br />
 Craver Trust (200 acres)<br />
