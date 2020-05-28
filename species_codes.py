@@ -34,6 +34,6 @@ for i in range(len(df.FirstName)):
         pass
 df.drop('All', axis=1, inplace=True)
 df.drop('SpeciesName', axis=1, inplace=True)
-
+df.to_csv('SpeciesCodes.csv', index=False)
 
 
