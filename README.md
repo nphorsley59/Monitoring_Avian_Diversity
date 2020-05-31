@@ -18,7 +18,7 @@ J & W (160 acres)<br />
 R Wildflower & Fields (160 acres)
 
 ## Results 
-(updated 5/27/2020)
+(updated 5/31/2020)
 
 ## Sources
 https://www.birdpop.org/docs/misc/Alpha_codes_eng.pdf
