@@ -28,6 +28,8 @@ total_na = data.isna().sum().sort_values(ascending=False)
 percent_na = (data.isna().sum()*100/len(data)).sort_values(ascending=False)
 data_na = pd.concat([total_na, percent_na], axis=1, keys=['Total', 'Percent'])
 
+# make time numeric
+
 # investigate problematic NAs
 
 # add species names
