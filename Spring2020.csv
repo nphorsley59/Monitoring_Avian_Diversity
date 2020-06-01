@@ -1,4 +1,4 @@
-ObserverID,Year,Month,Day,SurveyID,Start Time,Point,Minute,SpeciesCode,Distance,How,Visual,Sex,Migrating,ClusterSize,ClusterCode,Notes
+ObserverID,Year,Month,Day,SurveyID,StartTime,Point,Minute,SpeciesCode,Distance,How,Visual,Sex,Migrating,ClusterSize,ClusterCode,Notes
 CKD,2020,5,27,JW,6:06,1,1,DICK,30,V,X,,,,,
 CKD,2020,5,27,JW,6:06,1,1,AMCR,700,C,,,,,,
 CKD,2020,5,27,JW,6:06,1,1,BHCO,175,V,X,,,,,

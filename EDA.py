@@ -20,7 +20,8 @@ data.head()
 ## CLEAN DATA
 # clean up false NAs
 data = data.dropna(subset=['SpeciesCode'])
-data = data.fillna(value={'Visual':0, 'Sex':'U', 'Migrating':0,'ClusterSize':1})
+data = data.reset_index(drop=True)
+data = data.fillna(value={'Visual':0, 'Sex':'U', 'Migrating':0, 'ClusterSize':1, 'StartTime':'00:00'})
 data['Visual'].replace('X', 1, inplace=True)
 
 # NA report
@@ -28,9 +29,22 @@ total_na = data.isna().sum().sort_values(ascending=False)
 percent_na = (data.isna().sum()*100/len(data)).sort_values(ascending=False)
 data_na = pd.concat([total_na, percent_na], axis=1, keys=['Total', 'Percent'])
 
-# make time numeric
+# investigate problematic NAs and typos
+for col in ['Distance', 'Minute', 'Point']:
+    print(pd.isnull(data[col]).to_numpy().nonzero()[0])
+data.loc[267, 'Point'] = 88
+data.loc[267, 'Minute'] = float("NaN")
 
-# investigate problematic NAs
+# pull out 88s
+occurence_dets = data[data.Point == 88]
+data = data[data.Point != 88]
+data = data.reset_index(drop=True)
+
+# clean up time
+minutes = data['StartTime'].apply(lambda x: str(x).split(':')[1]).astype(int)
+hours = data['StartTime'].apply(lambda x: str(x).split(':')[0]).astype(int)
+minutes = minutes.apply(lambda x: round(x/60, 2))
+data['StartTime'] = hours+minutes
 
 # add species names
 
@@ -61,3 +75,14 @@ plt.xticks(rotation=90)
 plt.yticks(np.arange(0,1050,50))
 plt.ylabel("Distance (mean)")
 plt.xlabel("Species")
+
+# detections over time
+ax,f = plt.subplots()
+sns.distplot(data.StartTime)
+plt.xlim([4.5,9.5])
+plt.xticks(np.arange(4.5,9.5,.5))
+
+# detections over 6-min counts
+data.Minute.value_counts()
+
+
