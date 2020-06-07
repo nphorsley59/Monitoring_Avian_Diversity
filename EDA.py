@@ -36,15 +36,15 @@ data.loc[267, 'Point'] = 88
 data.loc[267, 'Minute'] = float("NaN")
 
 # pull out 88s
-occurence_dets = data[data.Point == 88]
-data = data[data.Point != 88]
+occurence_dets = data[data.Point == "88"]
+data = data[data.Point != "88"]
 data = data.reset_index(drop=True)
 
 # clean up time
-minutes = data['StartTime'].apply(lambda x: str(x).split(':')[1]).astype(int)
-hours = data['StartTime'].apply(lambda x: str(x).split(':')[0]).astype(int)
+minutes = data['Start Time'].apply(lambda x: str(x).split(':')[1]).astype(int)
+hours = data['Start Time'].apply(lambda x: str(x).split(':')[0]).astype(int)
 minutes = minutes.apply(lambda x: round(x/60, 2))
-data['StartTime'] = hours+minutes
+data['Start Time'] = hours+minutes
 
 # add species names
 
@@ -53,7 +53,7 @@ data['StartTime'] = hours+minutes
 abun = data.SpeciesCode.value_counts()
 ax,f = plt.subplots(figsize=(16,10))
 sns.barplot(x=abun.index, y=abun)
-plt.yticks(np.arange(0,100,10))
+plt.yticks(np.arange(0,310,10))
 plt.xticks(rotation=90)
 plt.ylabel("Abundance")
 plt.xlabel("Species")
