@@ -22,16 +22,18 @@ for i in reversed(range(len(df.SpeciesName))):
     else:
         pass
 df.reset_index(drop=True, inplace=True)
-df['SpeciesName'] = df['SpeciesName'].apply(lambda x: ' '.join(x))
-df['FirstName'] = df['SpeciesName'].apply(lambda x: x.split(' ')[0])
-df['SecondName'] = df['SpeciesName'].apply(lambda x: x.split(' ')[1])
-df['4-LetterCode'] = df['SpeciesName'].apply(lambda x: x.split(' ')[-1])
-for i in range(len(df.FirstName)):
-    if df['SecondName'][i] == df['4-LetterCode'][i]:
-        df['SecondName'][i] = df['FirstName'][i]
-        df['FirstName'][i] = 'NA'
+df['FirstName'] = df['SpeciesName'].apply(lambda x: ' '.join(x[0:2]) if len(x)==4 else x[0])
+for row in range(len(df)):
+    x = df['SpeciesName'][row]
+    if len(x)==2:
+        df.at[row, 'SecondName']=''
+    elif len(x)==3:
+        df.at[row, 'SecondName']=x[1]
+    elif len(x)==4:
+        df.at[row, 'SecondName']=x[2]
     else:
         pass
+df['4-LetterCode'] = df['SpeciesName'].apply(lambda x: x[-1])
 df.drop('All', axis=1, inplace=True)
 df.drop('SpeciesName', axis=1, inplace=True)
 df.to_csv('SpeciesCodes.csv', index=False)

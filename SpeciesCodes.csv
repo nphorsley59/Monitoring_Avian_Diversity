@@ -7,21 +7,21 @@ African,Collared-Dove,AFCD
 African,Silverbill,AFSI
 Agami,Heron,AGHE
 Ainley's,Storm-Petrel,AISP
-NA,Akekee,AKEK
-NA,Akiapolaau,AKIA
-NA,Akikiki,AKIK
-NA,Akohekohe,AKOH
+Akekee,,AKEK
+Akiapolaau,,AKIA
+Akikiki,,AKIK
+Akohekohe,,AKOH
 Alder,Flycatcher,ALFL
 Aleutian,Tern,ALTE
 Allen's,Hummingbird,ALHU
 Alpine,Swift,ALSW
 Altamira,Oriole,ALOR
 Altamira,Yellowthroat,ALYE
-NA,Amaui,AMAU
+Amaui,,AMAU
 Amazon,Kingfisher,AMKI
 American,Avocet,AMAV
 American,Bittern,AMBI
-American,Black,ABDU
+American Black,Duck,ABDU
 American,Coot,AMCO
 American,Crow,AMCR
 American,Dipper,AMDI
@@ -31,27 +31,27 @@ American,Goldfinch,AMGO
 American,Kestrel,AMKE
 American,Oystercatcher,AMOY
 American,Pipit,AMPI
-American,Pygmy,APKI
+American Pygmy,Kingfisher,APKI
 American,Redstart,AMRE
 American,Robin,AMRO
-American,Three-toed,ATTW
-American,Tree,ATSP
-American,White,AWPE
+American Three-toed,Woodpecker,ATTW
+American Tree,Sparrow,ATSP
+American White,Pelican,AWPE
 American,Wigeon,AMWI
 American,Woodcock,AMWO
 Amethyst-throated,Mountain-gem,ATMG
 Ancient,Murrelet,ANMU
-NA,Anhinga,ANHI
-NA,Anianiau,ANIA
+Anhinga,,ANHI
+Anianiau,,ANIA
 Anna's,Hummingbird,ANHU
-Antillean,Crested,ANCH
+Antillean Crested,Hummingbird,ANCH
 Antillean,Euphonia,ANEU
 Antillean,Mango,ANMA
 Antillean,Nighthawk,ANNI
 Antillean,Palm-Swift,ANPS
 Antillean,Piculet,ANPI
 Antillean,Siskin,ANSI
-NA,Apapane,APAP
+Apapane,,APAP
 Aplomado,Falcon,APFA
 Arctic,Loon,ARLO
 Arctic,Tern,ARTE
@@ -62,7 +62,7 @@ Ash-throated,Flycatcher,ATFL
 Ashy,Storm-Petrel,ASSP
 Ashy-faced,Owl,AFOW
 Ashy-throated,Chlorospingus,ATCH
-Asian,Brown,ABFL
+Asian Brown,Flycatcher,ABFL
 Asian,Rosy-Finch,ASRF
 Atitlan,Grebe,ATGR
 Atlantic,Puffin,ATPU
@@ -90,7 +90,7 @@ Baird's,Trogon,BATR
 Bald,Eagle,BAEA
 Balsas,Screech-Owl,BASO
 Baltimore,Oriole,BAOR
-NA,Bananaquit,BANA
+Bananaquit,,BANA
 Band-backed,Wren,BABW
 Band-rumped,Storm-Petrel,BSTP
 Band-rumped,Swift,BRSW
@@ -242,10 +242,10 @@ Black-tailed,Godwit,BLTG
 Black-tailed,Gull,BTGU
 Black-tailed,Trogon,BTAT
 Black-thighed,Grosbeak,BTGG
-Black-throated,Blue,BTBW
+Black-throated Blue,Warbler,BTBW
 Black-throated,Bobwhite,BTBO
-Black-throated,Gray,BTYW
-Black-throated,Green,BTNW
+Black-throated Gray,Warbler,BTYW
+Black-throated Green,Warbler,BTNW
 Black-throated,Jay,BTJA
 Black-throated,Magpie-Jay,BTMJ
 Black-throated,Mango,BTMA
@@ -265,10 +265,10 @@ Blue,Bunting,BLBU
 Blue,Cotinga,BLCO
 Blue,Dacnis,BLDA
 Blue,Grosbeak,BLGR
-Blue,Ground,BGDO
+Blue Ground,Dove,BGDO
 Blue,Jay,BLJA
 Blue,Mockingbird,BLMO
-Blue,Mountain,BMVI
+Blue Mountain,Vireo,BMVI
 Blue,Seedeater,BLSE
 Blue-and-gold,Tanager,BAGT
 Blue-and-white,Mockingbird,BAWM
@@ -297,12 +297,12 @@ Blue-throated,Mountain-gem,BTMG
 Blue-vented,Hummingbird,BVHU
 Blue-winged,Teal,BWTE
 Blue-winged,Warbler,BWWA
-NA,Bluethroat,BLUE
-Blyth's,Reed,BREW
+Bluethroat,,BLUE
+Blyth's Reed,Warbler,BREW
 Boat-billed,Flycatcher,BOBF
 Boat-billed,Heron,BBHE
 Boat-tailed,Grackle,BTGR
-NA,Bobolink,BOBO
+Bobolink,,BOBO
 Bohemian,Waxwing,BOWA
 Bonaparte's,Gull,BOGU
 Bonin,Petrel,BOPE
@@ -311,10 +311,10 @@ Boreal,Owl,BOOW
 Botteri's,Sparrow,BOSP
 Boucard's,Wren,BOWR
 Brace's,Emerald,BREM
-NA,Brambling,BRAM
+Brambling,,BRAM
 Bran-colored,Flycatcher,BCOF
 Brandt's,Cormorant,BRAC
-NA,Brant,BRAN
+Brant,,BRAN
 Brewer's,Blackbird,BRBL
 Brewer's,Sparrow,BRSP
 Bridled,Quail-Dove,BRQD
@@ -367,7 +367,7 @@ Buff-necked,Ibis,BNIB
 Buff-rumped,Warbler,BURW
 Buff-throated,Foliage-gleaner,BTFG
 Buff-throated,Saltator,BTSA
-NA,Bufflehead,BUFF
+Bufflehead,,BUFF
 Buffy,Tuftedcheek,BUTU
 Buffy-crowned,Wood-Partridge,BCWP
 Buller's,Shearwater,BULS
@@ -375,7 +375,7 @@ Bullock's,Oriole,BUOR
 Bulwer's,Petrel,BUPE
 Bumblebee,Hummingbird,BUHU
 Burrowing,Owl,BUOW
-NA,Bushtit,BUSH
+Bushtit,,BUSH
 Bushy-crested,Jay,BCRJ
 Cabanis's,Ground-Sparrow,CAGS
 Cabanis's,Wren,CABW
@@ -394,11 +394,11 @@ Canada,Jay,CAJA
 Canada,Warbler,CAWA
 Canebrake,Wren,CAKW
 Canivet's,Emerald,CAEM
-NA,Canvasback,CANV
+Canvasback,,CANV
 Canyon,Towhee,CANT
 Canyon,Wren,CANW
-Cape,May,CMWA
-Cape,Verde,CVSH
+Cape May,Warbler,CMWA
+Cape Verde,Shearwater,CVSH
 Capped,Heron,CAHE
 Carib,Grackle,CAGR
 Caribbean,Dove,CADO
@@ -419,7 +419,7 @@ Cattle,Egret,CAEG
 Cattle,Tyrant,CATY
 Cave,Swallow,CASW
 Cedar,Waxwing,CEDW
-Central,American,CAPO
+Central American,Pygmy-Owl,CAPO
 Cerulean,Warbler,CERW
 Chapman's,Swift,CHAS
 Charming,Hummingbird,CHHU
@@ -451,8 +451,8 @@ Choco,Sirystes,CHSI
 Choco,Tapaculo,CHTA
 Choco,Tinamou,CHTI
 Christmas,Shearwater,CHSH
-NA,Chuck-will's-widow,CWWI
-NA,Chukar,CHUK
+Chuck-will's-widow,,CWWI
+Chukar,,CHUK
 Cinereous,Becard,CIRB
 Cinnamon,Becard,CIMB
 Cinnamon,Hummingbird,CIHU
@@ -488,7 +488,7 @@ Collared,Towhee,COTO
 Collared,Trogon,COTR
 Colombian,Crake,COLC
 Comb,Duck,CODU
-Common,Black,COBH
+Common Black,Hawk,COBH
 Common,Chaffinch,CCHA
 Common,Chiffchaff,CCHI
 Common,Chlorospingus,COCL
@@ -499,7 +499,7 @@ Common,Gallinule,COGA
 Common,Goldeneye,COGO
 Common,Grackle,COGR
 Common,Greenshank,COMG
-Common,Ground,CGDO
+Common Ground,Dove,CGDO
 Common,House-Martin,COHM
 Common,Loon,COLO
 Common,Merganser,COME
@@ -515,7 +515,7 @@ Common,Raven,CORA
 Common,Redpoll,CORE
 Common,Redshank,CREH
 Common,Redstart,CRET
-Common,Ringed,CRPL
+Common Ringed,Plover,CRPL
 Common,Rosefinch,CORO
 Common,Sandpiper,COSA
 Common,Scoter,COSC
@@ -533,10 +533,10 @@ Coppery-headed,Emerald,CHEM
 Cordilleran,Flycatcher,COFL
 Corn,Crake,CORC
 Cory's,Shearwater,CORS
-Costa,Rican,CRBR
-Costa,Rican,CRPO
-Costa,Rican,CRSW
-Costa,Rican,CRWA
+Costa Rican,Brushfinch,CRBR
+Costa Rican,Pygmy-Owl,CRPO
+Costa Rican,Swift,CRSW
+Costa Rican,Warbler,CRWA
 Costa's,Hummingbird,COHU
 Couch's,Kingbird,COKI
 Cozumel,Emerald,COEM
@@ -560,16 +560,16 @@ Crimson-collared,Tanager,CCTA
 Crimson-crested,Woodpecker,CCRW
 Crimson-fronted,Parakeet,CFPA
 Crissal,Thrasher,CRTH
-Crowned,Slaty,CSFL
+Crowned Slaty,Flycatcher,CSFL
 Crowned,Woodnymph,CRWO
-Cuban,Black,CUBH
+Cuban Black,Hawk,CUBH
 Cuban,Blackbird,CUBL
 Cuban,Bullfinch,CUBU
 Cuban,Crow,CUCR
 Cuban,Emerald,CUEM
 Cuban,Gnatcatcher,CUGN
 Cuban,Grassquit,CUGR
-Cuban,Green,CGWO
+Cuban Green,Woodpecker,CGWO
 Cuban,Macaw,CUBM
 Cuban,Martin,CUMA
 Cuban,Oriole,CUOR
@@ -587,16 +587,16 @@ Dark,Pewee,DAPE
 Dark-billed,Cuckoo,DBCU
 Dark-eyed,Junco,DEJU
 Dark-sided,Flycatcher,DSFL
-NA,Dickcissel,DICK
+Dickcissel,,DICK
 Dot-winged,Antwren,DWAN
 Double-banded,Graytail,DBGR
 Double-crested,Cormorant,DCCO
 Double-striped,Thick-knee,DSTK
 Double-toothed,Kite,DTKI
-NA,Dovekie,DOVE
+Dovekie,,DOVE
 Downy,Woodpecker,DOWO
 Dull-mantled,Antbird,DMAN
-NA,Dunlin,DUNL
+Dunlin,,DUNL
 Dusky,Antbird,DUAN
 Dusky,Flycatcher,DUFL
 Dusky,Grouse,DUGR
@@ -621,11 +621,11 @@ Eastern,Kingbird,EAKI
 Eastern,Meadowlark,EAME
 Eastern,Phoebe,EAPH
 Eastern,Screech-Owl,EASO
-Eastern,Spot-billed,ESBD
+Eastern Spot-billed,Duck,ESBD
 Eastern,Towhee,EATO
 Eastern,Whip-poor-will,EWPW
 Eastern,Wood-Pewee,EAWP
-Eastern,Yellow,EYWA
+Eastern Yellow,Wagtail,EYWA
 Egyptian,Goose,EGGO
 Elegant,Euphonia,ELEU
 Elegant,Quail,ELQU
@@ -654,7 +654,7 @@ Eurasian,Oystercatcher,EUOY
 Eurasian,Siskin,EUSI
 Eurasian,Skylark,EUSK
 Eurasian,Spoonbill,EURS
-Eurasian,Tree,ETSP
+Eurasian Tree,Sparrow,ETSP
 Eurasian,Wigeon,EUWI
 Eurasian,Woodcock,EUWO
 Eurasian,Wryneck,EUWR
@@ -669,7 +669,7 @@ Eye-ringed,Flatbill,ERFL
 Eyebrowed,Thrush,EYTH
 Falcated,Duck,FADU
 Fan-tailed,Warbler,FTWA
-Far,Eastern,FECU
+Far Eastern,Curlew,FECU
 Fasciated,Antshrike,FAAN
 Fasciated,Tiger-Heron,FTHE
 Fea's,Petrel,FEPE
@@ -677,7 +677,7 @@ Fernandina's,Flicker,FEFL
 Ferruginous,Hawk,FEHA
 Ferruginous,Pygmy-Owl,FEPO
 Field,Sparrow,FISP
-NA,Fieldfare,FIEL
+Fieldfare,,FIEL
 Fiery-billed,Aracari,FBAR
 Fiery-throated,Hummingbird,FTHU
 Fish,Crow,FICR
@@ -701,12 +701,12 @@ Franklin's,Gull,FRGU
 Fulvous,Owl,FUOW
 Fulvous,Whistling-Duck,FUWD
 Fulvous-vented,Euphonia,FVEU
-NA,Gadwall,GADW
+Gadwall,,GADW
 Galapagos,Petrel,GAPE
 Galapagos,Shearwater,GASH
 Gambel's,Quail,GAQU
 Garden,Emerald,GAEM
-NA,Garganey,GARG
+Garganey,,GARG
 Garnet-throated,Hummingbird,GATH
 Gartered,Trogon,GATR
 Giant,Cowbird,GICO
@@ -743,7 +743,7 @@ Golden-naped,Woodpecker,GNWO
 Golden-olive,Woodpecker,GOWO
 Golden-winged,Warbler,GWWA
 Grace's,Warbler,GRWA
-Grand,Cayman,GCAT
+Grand Cayman,Thrush,GCAT
 Grasshopper,Sparrow,GRSP
 Grassland,Yellow-Finch,GRYF
 Gray,Bunting,GRBU
@@ -800,18 +800,18 @@ Grayish,Saltator,GRAS
 Graylag,Goose,GRGO
 Great,Antshrike,GANT
 Great,Auk,GRAU
-Great,Black,GBHA
-Great,Black-backed,GBBG
-Great,Blue,GBHE
+Great Black,Hawk,GBHA
+Great Black-backed,Gull,GBBG
+Great Blue,Heron,GBHE
 Great,Cormorant,GRCO
-Great,Crested,GCFL
-Great,Crested,GCTE
+Great Crested,Flycatcher,GCFL
+Great Crested,Tern,GCTE
 Great,Curassow,GRCU
 Great,Egret,GREG
 Great,Frigatebird,GREF
-Great,Gray,GGOW
-Great,Green,GGMA
-Great,Horned,GHOW
+Great Gray,Owl,GGOW
+Great Green,Macaw,GGMA
+Great Horned,Owl,GHOW
 Great,Jacamar,GREJ
 Great,Kiskadee,GKIS
 Great,Knot,GRKN
@@ -819,25 +819,25 @@ Great,Lizard-Cuckoo,GRLC
 Great,Potoo,GRPO
 Great,Shearwater,GRSH
 Great,Skua,GRSK
-Great,Spotted,GSWO
-Great,Swallow-tailed,GSTS
+Great Spotted,Woodpecker,GSWO
+Great Swallow-tailed,Swift,GSTS
 Great,Tinamou,GRTI
 Great-tailed,Grackle,GTGR
 Greater,Amakihi,GRAM
 Greater,Ani,GRTA
-Greater,Antillean,GABU
-Greater,Antillean,GAEL
-Greater,Antillean,GAGR
-Greater,Antillean,GANI
+Greater Antillean,Bullfinch,GABU
+Greater Antillean,Elaenia,GAEL
+Greater Antillean,Grackle,GAGR
+Greater Antillean,Nightjar,GANI
 Greater,Koa-Finch,GRKF
-Greater,Necklaced,GNLA
+Greater Necklaced,Laughingthrush,GNLA
 Greater,Pewee,GRPE
 Greater,Prairie-Chicken,GRPC
 Greater,Roadrunner,GRRO
 Greater,Sage-Grouse,GRSG
 Greater,Sand-Plover,GSAP
 Greater,Scaup,GRSC
-Greater,White-fronted,GWFG
+Greater White-fronted,Goose,GWFG
 Greater,Yellowlegs,GRYE
 Green,Hermit,GREH
 Green,Heron,GRHE
@@ -879,7 +879,7 @@ Guadeloupe,Woodpecker,GUWO
 Gull-billed,Tern,GBTE
 Gundlach's,Hawk,GUHA
 Gunnison,Sage-Grouse,GUSG
-NA,Gyrfalcon,GYRF
+Gyrfalcon,,GYRF
 Hairy,Woodpecker,HAWO
 Hammond's,Flycatcher,HAFL
 Happy,Wren,HAWR
@@ -900,7 +900,7 @@ Hawaiian,Goose,HAGO
 Hawaiian,Hawk,HAWH
 Hawaiian,Petrel,HAPE
 Hawaiian,Rail,HARA
-NA,Hawfinch,HAWF
+Hawfinch,,HAWF
 Heermann's,Gull,HEEG
 Helmeted,Guineafowl,HELG
 Henslow's,Sparrow,HESP
@@ -942,9 +942,9 @@ House,Wren,HOWR
 Hudsonian,Godwit,HUGO
 Humboldt's,Sapphire,HUSA
 Hutton's,Vireo,HUVI
-NA,Hwamei,HWAM
+Hwamei,,HWAM
 Iceland,Gull,ICGU
-NA,Iiwi,IIWI
+Iiwi,,IIWI
 Imperial,Parrot,IMPA
 Imperial,Woodpecker,IMWO
 Inagua,Woodstar,INWO
@@ -960,7 +960,7 @@ Isthmian,Wren,ISWR
 Ivory,Gull,IVGU
 Ivory-billed,Woodcreeper,IBIW
 Ivory-billed,Woodpecker,IBWO
-NA,Jabiru,JABI
+Jabiru,,JABI
 Jack,Snipe,JASN
 Jamaican,Becard,JABE
 Jamaican,Blackbird,JABL
@@ -983,12 +983,12 @@ Japanese,White-eye,JAWE
 Java,Sparrow,JASP
 Jet,Antbird,JEAN
 Jouanin's,Petrel,JOPE
-Juan,Fernandez,JFPE
+Juan Fernandez,Petrel,JFPE
 Juniper,Titmouse,JUTI
-NA,Kakawahie,KAKA
+Kakawahie,,KAKA
 Kalij,Pheasant,KAPH
-NA,Kamao,KAMA
-Kamchatka,Leaf,KLWA
+Kamao,,KAMA
+Kamchatka Leaf,Warbler,KLWA
 Kauai,Akialoa,KAAK
 Kauai,Amakihi,KAAM
 Kauai,Elepaio,KAEL
@@ -999,17 +999,17 @@ Keel-billed,Toucan,KBTO
 Kelp,Gull,KEGU
 Kentucky,Warbler,KEWA
 Kermadec,Petrel,KEPE
-Key,West,KWQD
-NA,Killdeer,KILL
+Key West,Quail-Dove,KWQD
+Killdeer,,KILL
 King,Eider,KIEI
 King,Rail,KIRA
 King,Vulture,KIVU
-NA,Kioea,KIOE
+Kioea,,KIOE
 Kirtland's,Warbler,KIWA
 Kittlitz's,Murrelet,KIMU
 Kona,Grosbeak,KOGR
-La,Sagra's,LSFL
-La,Selle,LSTH
+La Sagra's,Flycatcher,LSFL
+La Selle,Thrush,LSTH
 Labrador,Duck,LABD
 Ladder-backed,Woodpecker,LBWO
 Lanai,Hookbill,LANH
@@ -1046,13 +1046,13 @@ Least,Storm-Petrel,LSTP
 Least,Tern,LETE
 Lemon-spectacled,Tanager,LSTA
 Lesser,Akialoa,LEAK
-Lesser,Antillean,LANB
-Lesser,Antillean,LAFL
-Lesser,Antillean,LAPE
-Lesser,Antillean,LASA
-Lesser,Antillean,LASW
-Lesser,Antillean,LATA
-Lesser,Black-backed,LBBG
+Lesser Antillean,Bullfinch,LANB
+Lesser Antillean,Flycatcher,LAFL
+Lesser Antillean,Pewee,LAPE
+Lesser Antillean,Saltator,LASA
+Lesser Antillean,Swift,LASW
+Lesser Antillean,Tanager,LATA
+Lesser Black-backed,Gull,LBBG
 Lesser,Elaenia,LEEL
 Lesser,Frigatebird,LEFR
 Lesser,Goldfinch,LEGO
@@ -1066,29 +1066,29 @@ Lesser,Redpoll,LERE
 Lesser,Roadrunner,LERO
 Lesser,Sand-Plover,LSAP
 Lesser,Scaup,LESC
-Lesser,Swallow-tailed,LSTS
+Lesser Swallow-tailed,Swift,LSTS
 Lesser,Violetear,LEVI
-Lesser,White-fronted,LWFG
+Lesser White-fronted,Goose,LWFG
 Lesser,Whitethroat,LEWH
-Lesser,Yellow-headed,LYHV
+Lesser Yellow-headed,Vulture,LYHV
 Lesser,Yellowlegs,LEYE
 Lesson's,Motmot,LEMO
 Lewis's,Woodpecker,LEWO
 Light-mantled,Albatross,LMAL
 Lilac-crowned,Parrot,LCPA
-NA,Limpkin,LIMP
+Limpkin,,LIMP
 Lincoln's,Sparrow,LISP
 Lineated,Foliage-gleaner,LIFG
 Lineated,Woodpecker,LIWO
 Lined,Seedeater,LISE
 Little,Bittern,LIBI
-Little,Blue,LBHE
+Little Blue,Heron,LBHE
 Little,Bunting,LIBU
 Little,Cuckoo,LITC
 Little,Curlew,LICU
 Little,Egret,LIEG
 Little,Gull,LIGU
-Little,Ringed,LRPL
+Little Ringed,Plover,LRPL
 Little,Stint,LIST
 Little,Tern,LITE
 Little,Tinamou,LITI
@@ -1121,7 +1121,7 @@ Magenta-throated,Woodstar,MTWO
 Magnificent,Frigatebird,MAFR
 Magnolia,Warbler,MAWA
 Maguari,Stork,MAST
-NA,Mallard,MALL
+Mallard,,MALL
 Mangrove,Cuckoo,MACU
 Mangrove,Hummingbird,MAHU
 Mangrove,Rail,MARA
@@ -1133,7 +1133,7 @@ Marbled,Murrelet,MAMU
 Marbled,Wood-Quail,MAWQ
 Mariana,Swiftlet,MASW
 Markham's,Storm-Petrel,MASP
-Maroon-chested,Ground,MCGD
+Maroon-chested Ground,Dove,MCGD
 Maroon-fronted,Parrot,MFPA
 Marsh,Sandpiper,MASA
 Marsh,Wren,MAWR
@@ -1151,7 +1151,7 @@ McKay's,Bunting,MKBU
 Meadow,Pipit,MEPI
 Mealy,Parrot,MEAP
 Melodious,Blackbird,MEBL
-NA,Merlin,MERL
+Merlin,,MERL
 Mew,Gull,MEGU
 Mexican,Chickadee,MECH
 Mexican,Hermit,MEHE
@@ -1162,9 +1162,9 @@ Mexican,Violetear,MEVI
 Mexican,Whip-poor-will,MWPW
 Mexican,Woodnymph,MEWO
 Middendorff's,Grasshopper-Warbler,MIGW
-Middle,American,MASO
+Middle American,Screech-Owl,MASO
 Military,Macaw,MIMA
-NA,Millerbird,MILL
+Millerbird,,MILL
 Mississippi,Kite,MIKI
 Mistle,Thrush,MITH
 Mitred,Parakeet,MIPA
@@ -1216,7 +1216,7 @@ Northern,Fulmar,NOFU
 Northern,Gannet,NOGA
 Northern,Goshawk,NOGO
 Northern,Harrier,NOHA
-Northern,Hawk,NHOW
+Northern Hawk,Owl,NHOW
 Northern,Jacana,NOJA
 Northern,Lapwing,NOLA
 Northern,Mockingbird,NOMO
@@ -1224,9 +1224,9 @@ Northern,Parula,NOPA
 Northern,Pintail,NOPI
 Northern,Potoo,NORP
 Northern,Pygmy-Owl,NOPO
-Northern,Red,NRBI
-Northern,Rough-winged,NRWS
-Northern,Saw-whet,NSWO
+Northern Red,Bishop,NRBI
+Northern Rough-winged,Swallow,NRWS
+Northern Saw-whet,Owl,NSWO
 Northern,Schiffornis,NOSC
 Northern,Scrub-Flycatcher,NOSF
 Northern,Shoveler,NSHO
@@ -1255,7 +1255,7 @@ Ochraceous,Pewee,OCPE
 Ochraceous,Wren,OCWR
 Ochre-bellied,Flycatcher,OBFL
 Ochre-breasted,Antpitta,OBAN
-NA,Oilbird,OILB
+Oilbird,,OILB
 Olivaceous,Flatbill,OLFL
 Olivaceous,Piculet,OLPI
 Olivaceous,Woodcreeper,OLWO
@@ -1269,8 +1269,8 @@ Olive-crowned,Yellowthroat,OCYE
 Olive-sided,Flycatcher,OSFL
 Olive-striped,Flycatcher,OSTF
 Olive-throated,Parakeet,OTPA
-NA,Olomao,OLOM
-NA,Omao,OMAO
+Olomao,,OLOM
+Omao,,OMAO
 One-colored,Becard,OCBE
 Orange,Oriole,ORAO
 Orange-bellied,Euphonia,OBEE
@@ -1284,7 +1284,7 @@ Orange-collared,Manakin,OCMA
 Orange-crowned,Oriole,OCOR
 Orange-crowned,Warbler,OCWA
 Orange-fronted,Parakeet,OFPA
-NA,Orangequit,ORAN
+Orangequit,,ORAN
 Orchard,Oriole,OROR
 Oriental,Cuckoo,ORCU
 Oriental,Greenfinch,ORGR
@@ -1295,9 +1295,9 @@ Oriental,Turtle-Dove,ORTD
 Oriente,Warbler,ORWA
 Orinoco,Goose,ORGO
 Ornate,Hawk-Eagle,ORHE
-NA,Osprey,OSPR
-NA,Ou,OU
-NA,Ovenbird,OVEN
+Osprey,,OSPR
+Ou,,OU
+Ovenbird,,OVEN
 Pacific,Antwren,PAAN
 Pacific,Golden-Plover,PAGP
 Pacific,Loon,PALO
@@ -1315,14 +1315,14 @@ Pale-breasted,Spinetail,PBSP
 Pale-eyed,Pygmy-Tyrant,PEPT
 Pale-vented,Pigeon,PVPI
 Pale-vented,Thrush,PVTH
-NA,Palila,PALI
+Palila,,PALI
 Pallas's,Bunting,PALB
-Pallas's,Leaf,PLEW
+Pallas's Leaf,Warbler,PLEW
 Pallas's,Rosefinch,PARO
 Palm,Crow,PACR
 Palm,Tanager,PATA
 Palm,Warbler,PAWA
-NA,Palmchat,PALM
+Palmchat,,PALM
 Paltry,Tyrannulet,PATY
 Panama,Flycatcher,PAFL
 Parakeet,Auklet,PAAU
@@ -1338,7 +1338,7 @@ Peg-billed,Finch,PBFI
 Pelagic,Cormorant,PECO
 Peregrine,Falcon,PEFA
 Peruvian,Booby,PEBO
-NA,Phainopepla,PHAI
+Phainopepla,,PHAI
 Pheasant,Cuckoo,PHCU
 Philadelphia,Vireo,PHVI
 Pied,Puffbird,PIPU
@@ -1369,7 +1369,7 @@ Plain,Antvireo,PLAN
 Plain,Chachalaca,PLCH
 Plain,Pigeon,PLAP
 Plain,Xenops,PLXE
-Plain-breasted,Ground,PBGD
+Plain-breasted Ground,Dove,PBGD
 Plain-brown,Woodcreeper,PBRW
 Plain-capped,Starthroat,PCST
 Plain-colored,Tanager,PCTA
@@ -1379,27 +1379,27 @@ Plumbeous,Pigeon,PLUP
 Plumbeous,Vireo,PLVI
 Plumbeous,Warbler,PLUW
 Pomarine,Jaeger,POJA
-NA,Poo-uli,POUL
+Poo-uli,,POUL
 Prairie,Falcon,PRFA
 Prairie,Warbler,PRAW
 Prong-billed,Barbet,PBBA
 Prothonotary,Warbler,PROW
 Providence,Petrel,PRPE
-NA,Puaiohi,PUAI
-Puerto,Rican,PRBU
-Puerto,Rican,PREM
-Puerto,Rican,PRFL
-Puerto,Rican,PRLC
-Puerto,Rican,PRNI
-Puerto,Rican,PROR
-Puerto,Rican,PRPK
-Puerto,Rican,PRPO
-Puerto,Rican,PRSO
-Puerto,Rican,PRSP
-Puerto,Rican,PRTA
-Puerto,Rican,PRTO
-Puerto,Rican,PRVI
-Puerto,Rican,PRWO
+Puaiohi,,PUAI
+Puerto Rican,Bullfinch,PRBU
+Puerto Rican,Emerald,PREM
+Puerto Rican,Flycatcher,PRFL
+Puerto Rican,Lizard-Cuckoo,PRLC
+Puerto Rican,Nightjar,PRNI
+Puerto Rican,Oriole,PROR
+Puerto Rican,Parakeet,PRPK
+Puerto Rican,Parrot,PRPO
+Puerto Rican,Screech-Owl,PRSO
+Puerto Rican,Spindalis,PRSP
+Puerto Rican,Tanager,PRTA
+Puerto Rican,Tody,PRTO
+Puerto Rican,Vireo,PRVI
+Puerto Rican,Woodpecker,PRWO
 Purple,Finch,PUFI
 Purple,Gallinule,PUGA
 Purple,Heron,PUHE
@@ -1415,8 +1415,8 @@ Purple-throated,Woodstar,PTWO
 Purplish-backed,Jay,PBJA
 Purplish-backed,Quail-Dove,PBQD
 Pygmy,Nuthatch,PYNU
-NA,Pyrrhuloxia,PYRR
-NA,Razorbill,RAZO
+Pyrrhuloxia,,PYRR
+Razorbill,,RAZO
 Red,Avadavat,REAV
 Red,Crossbill,RECR
 Red,Junglefowl,REJU
@@ -1475,8 +1475,8 @@ Red-vented,Bulbul,RVBU
 Red-whiskered,Bulbul,RWBU
 Red-winged,Blackbird,RWBL
 Reddish,Egret,REEG
-NA,Redhead,REDH
-NA,Redwing,REDW
+Redhead,,REDH
+Redwing,,REDW
 Reed,Bunting,REBU
 Resplendent,Quetzal,REQU
 Rhinoceros,Auklet,RHAU
@@ -1496,7 +1496,7 @@ Rock,Pigeon,ROPI
 Rock,Ptarmigan,ROPT
 Rock,Sandpiper,ROSA
 Rock,Wren,ROWR
-NA,Rook,ROOK
+Rook,,ROOK
 Rose-bellied,Bunting,RBBU
 Rose-breasted,Grosbeak,RBGR
 Rose-ringed,Parakeet,RRPA
@@ -1518,7 +1518,7 @@ Ruby-topaz,Hummingbird,RTOH
 Ruddy,Crake,RUCR
 Ruddy,Duck,RUDU
 Ruddy,Foliage-gleaner,RUFG
-Ruddy,Ground,RGDO
+Ruddy Ground,Dove,RGDO
 Ruddy,Pigeon,RUDP
 Ruddy,Quail-Dove,RUQD
 Ruddy,Shelduck,RUSH
@@ -1529,7 +1529,7 @@ Ruddy-breasted,Seedeater,RBSE
 Ruddy-capped,Nightingale-Thrush,RCNT
 Ruddy-tailed,Flycatcher,RDTF
 Rufescent,Tiger-Heron,RTHE
-NA,Ruff,RUFF
+Ruff,,RUFF
 Ruffed,Grouse,RUGR
 Rufous,Hummingbird,RUHU
 Rufous,Motmot,RMOT
@@ -1586,12 +1586,12 @@ Sage,Thrasher,SATH
 Sagebrush,Sparrow,SABS
 Saltmarsh,Sparrow,SALS
 Salvin's,Albatross,SAAL
-San,Andres,SAVI
-San,Blas,SBJA
-NA,Sanderling,SAND
+San Andres,Vireo,SAVI
+San Blas,Jay,SBJA
+Sanderling,,SAND
 Sandhill,Crane,SACR
 Sandwich,Tern,SATE
-NA,Sapayoa,SAPA
+Sapayoa,,SAPA
 Sapphire-throated,Hummingbird,SHTH
 Savanna,Hawk,SAHA
 Savannah,Sparrow,SAVS
@@ -1632,7 +1632,7 @@ Sharp-shinned,Hawk,SSHA
 Sharp-tailed,Grouse,STGR
 Sharp-tailed,Sandpiper,SPTS
 Sharp-tailed,Streamcreeper,STST
-NA,Sharpbill,SHAR
+Sharpbill,,SHAR
 Shining,Honeycreeper,SHHO
 Shiny,Cowbird,SHCO
 Short-billed,Dowitcher,SBDO
@@ -1645,10 +1645,10 @@ Short-tailed,Nighthawk,SHTN
 Short-tailed,Shearwater,STTS
 Short-tailed,Swift,STSW
 Siberian,Accentor,SIAC
-Siberian,Blue,SBRO
+Siberian Blue,Robin,SBRO
 Siberian,Rubythroat,SIRU
 Sick's,Swift,SISW
-Sierra,Madre,SMSP
+Sierra Madre,Sparrow,SMSP
 Silver-throated,Tanager,STTA
 Silvery-fronted,Tapaculo,SFTA
 Silvery-throated,Jay,STHJ
@@ -1678,14 +1678,14 @@ Slender,Sheartail,SLSH
 Slender-billed,Curlew,SBCU
 Slender-billed,Grackle,SBGR
 Slender-billed,Kite,SBKI
-NA,Smew,SMEW
+Smew,,SMEW
 Smith's,Longspur,SMLO
 Smoky-brown,Woodpecker,SMBW
 Smooth-billed,Ani,SBAN
 Snail,Kite,SNKI
 Snow,Bunting,SNBU
 Snow,Goose,SNGO
-NA,Snowcap,SNOC
+Snowcap,,SNOC
 Snowy,Cotinga,SNCO
 Snowy,Egret,SNEG
 Snowy,Owl,SNOW
@@ -1710,13 +1710,13 @@ Sooty-capped,Chlorospingus,SCCH
 Sooty-faced,Finch,SFFI
 Sooty-headed,Tyrannulet,SHTY
 Sooty-headed,Wren,SHWR
-NA,Sora,SORA
-South,Polar,SPSK
+Sora,,SORA
+South Polar,Skua,SPSK
 Southern,Beardless-Tyrannulet,SOBT
 Southern,Bentbill,SOBE
 Southern,Lapwing,SOLA
 Southern,Martin,SOMA
-Southern,Rough-winged,SRWS
+Southern Rough-winged,Swallow,SRWS
 Spangle-cheeked,Tanager,SCHT
 Sparkling-tailed,Hummingbird,SKTH
 Speckled,Mourner,SPMO
@@ -1753,11 +1753,11 @@ Spotted,Wren,SPWR
 Sprague's,Pipit,SPPI
 Spruce,Grouse,SPGR
 Squirrel,Cuckoo,SQCU
-St.,Lucia,SLBF
-St.,Lucia,SLOR
-St.,Lucia,SLPA
-St.,Lucia,SLWA
-St.,Vincent,SVPA
+St.,,SLBF
+St. Lucia,Oriole,SLOR
+St. Lucia,Parrot,SLPA
+St. Lucia,Warbler,SLWA
+St. Vincent,Parrot,SVPA
 Stejneger's,Petrel,STPE
 Stejneger's,Scoter,STSC
 Steller's,Eider,STEI
@@ -1765,7 +1765,7 @@ Steller's,Jay,STJA
 Steller's,Sea-Eagle,STSE
 Stilt,Sandpiper,STSA
 Stolid,Flycatcher,STOF
-NA,Stonechat,STON
+Stonechat,,STON
 Straight-billed,Woodcreeper,SGBW
 Streak-backed,Oriole,SBAO
 Streak-breasted,Treehunter,SBTR
@@ -1776,7 +1776,7 @@ Streaked,Flycatcher,STRF
 Streaked,Saltator,SSAL
 Streaked,Shearwater,STRS
 Streaked,Xenops,STXE
-NA,Streamertail,STRM
+Streamertail,,STRM
 Striated,Heron,STRH
 Strickland's,Woodpecker,STCW
 Stripe-breasted,Wren,SIBW
@@ -1798,10 +1798,10 @@ Sulphur-rumped,Tanager,SURT
 Sulphur-winged,Parakeet,SWPA
 Sumichrast's,Wren,SUWR
 Summer,Tanager,SUTA
-NA,Sunbittern,SUNB
-NA,Sungrebe,SUNG
+Sunbittern,,SUNB
+Sungrebe,,SUNG
 Surf,Scoter,SUSC
-NA,Surfbird,SURF
+Surfbird,,SURF
 Swainson's,Hawk,SWHA
 Swainson's,Thrush,SWTH
 Swainson's,Warbler,SWWA
@@ -1879,10 +1879,10 @@ Turkey,Vulture,TUVU
 Turquoise,Cotinga,TUCO
 Turquoise-browed,Motmot,TBMO
 Tuxtla,Quail-Dove,TUQD
-NA,Ula-ai-hawane,UAIH
+Ula-ai-hawane,,UAIH
 Unicolored,Jay,UNJA
 Uniform,Crake,UNIC
-Unspotted,Saw-whet,USWO
+Unspotted Saw-whet,Owl,USWO
 Upland,Sandpiper,UPSA
 Variable,Seedeater,VASE
 Varied,Bunting,VABU
@@ -1890,11 +1890,11 @@ Varied,Solitaire,VASO
 Varied,Thrush,VATH
 Variegated,Flycatcher,VAFL
 Vaux's,Swift,VASW
-NA,Veery,VEER
+Veery,,VEER
 Velvet,Scoter,VESC
 Venezuelan,Troupial,VETR
 Veraguan,Mango,VEMA
-NA,Verdin,VERD
+Verdin,,VERD
 Vermilion,Flycatcher,VEFL
 Vervain,Hummingbird,VEHU
 Vesper,Sparrow,VESP
@@ -1922,15 +1922,15 @@ Wedge-rumped,Storm-Petrel,WRSP
 Wedge-tailed,Grass-Finch,WTGF
 Wedge-tailed,Sabrewing,WTSA
 Wedge-tailed,Shearwater,WTSH
-West,Indian,WIWD
-West,Indian,WIWO
-West,Mexican,WMCH
+West Indian,Whistling-Duck,WIWD
+West Indian,Woodpecker,WIWO
+West Mexican,Chachalaca,WMCH
 Western,Bluebird,WEBL
 Western,Chat-Tanager,WECT
 Western,Grebe,WEGR
 Western,Gull,WEGU
 Western,Kingbird,WEKI
-Western,Marsh,WMHA
+Western Marsh,Harrier,WMHA
 Western,Meadowlark,WEME
 Western,Reef-Heron,WERH
 Western,Sandpiper,WESA
@@ -1939,7 +1939,7 @@ Western,Spindalis,WESP
 Western,Tanager,WETA
 Western,Water-Rail,WEWR
 Western,Wood-Pewee,WEWP
-NA,Whimbrel,WHIM
+Whimbrel,,WHIM
 Whiskered,Auklet,WHAU
 Whiskered,Screech-Owl,WHSO
 Whiskered,Tern,WHST
@@ -2042,7 +2042,7 @@ Whooper,Swan,WHOS
 Whooping,Crane,WHCR
 Whooping,Motmot,WHMO
 Wild,Turkey,WITU
-NA,Willet,WILL
+Willet,,WILL
 Williamson's,Sapsucker,WISA
 Willow,Flycatcher,WIFL
 Willow,Ptarmigan,WIPT
@@ -2063,8 +2063,8 @@ Wood,Warbler,WOWA
 Woodhouse's,Scrub-Jay,WOSJ
 Worm-eating,Warbler,WEWA
 Worthen's,Sparrow,WOSP
-NA,Wrenthrush,WRET
-NA,Wrentit,WREN
+Wrenthrush,,WRET
+Wrentit,,WREN
 Xantus's,Hummingbird,XAHU
 Yellow,Bittern,YEBI
 Yellow,Grosbeak,YEGR

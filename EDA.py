@@ -4,19 +4,25 @@ Spyder Editor
 
 This is a temporary script file.
 """
-## LIBRARIES
+#### LIBRARIES ####
 
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 import numpy as np
 
-## IMPORT
+#### IMPORT ####
 
 birds = pd.read_csv("Countdata.csv")
 codes = pd.read_csv("SpeciesCodes.csv")
 
-## FUNCTIONS
+species_dict = {}
+for row in range(len(codes)):
+    if pd.isna(codes['SecondName'][row]):
+        species_dict[codes['4-LetterCode'][row]] = [codes['FirstName'][row], 'None']
+    else:
+        species_dict[codes['4-LetterCode'][row]] = [codes['FirstName'][row], codes['SecondName'][row]]
+species_dict['NOBI'] = 'No Bird'
+
+#### FUNCTIONS ####
 
 def valueCount(column):
     x = column.value_counts()
@@ -28,7 +34,7 @@ def fillDown(data, column, row):
     else:
         pass
 
-## VIEW
+#### VIEW ####
 
 birds.columns
 # 'ObserverID', 'Year', 'Month', 'Day', 'SurveyID', 'StartTime', 
@@ -55,7 +61,7 @@ birds.isna().sum().sort_values(ascending=False)
 # delete empty lines
 # fill in known nans ()
 
-## CLEAN
+#### CLEAN ####
 
 # make 'Start Time' 'StartTime'
 birds.rename(columns={'Start Time':'StartTime'}, inplace=True)
@@ -137,7 +143,65 @@ for row in range(len(birds)):
 # fill in 88s
 birds = birds.fillna(value={'StartTime':'00:00', 'Minute':88, 'Distance':round(birds['Distance'].mean(), 0)})
 
-## FEATURE ENGINEERING
+#### RE-CATEGORIZE AND QUALITY CHECK ####
+
+# observedID
+birds['ObserverID'].replace('CKD', 'Colin Kenneth Dobson', inplace=True)
+
+# surveyID
+birds['SurveyID'].replace('JW', 'J&W', inplace=True)
+birds['SurveyID'].replace('DQ', 'DQ-80', inplace=True)
+birds['SurveyID'].replace('RW', 'R Wildlife Farm and Fields LLC', inplace=True)
+birds['SurveyID'].replace('CT', 'Craver Trust', inplace=True)
+birds['SurveyID'].replace('CC', 'Cow Creek Farm', inplace=True)
+
+# how
+birds['How'].replace('V', 'Visual', inplace=True)
+birds['How'].replace('C', 'Call', inplace=True)
+birds['How'].replace('S', 'Song', inplace=True)
+
+# sex
+birds['Sex'].replace('M', 'Male', inplace=True)
+birds['Sex'].replace('F', 'Female', inplace=True)
+birds['Sex'].replace('J', 'Juvenile', inplace=True)
+birds['Sex'].replace('U', 'Unknown', inplace=True)
+
+# speciescode
+birds['SpeciesCode'].replace({'CLIS':'CLSW', 'CHIP':'CHSP', 'TRSW':'TRES', 'CAWR':'CARW', 'MAGW':'MAWA', 
+                              'AMRC':'AMCR', 'AMR':'AMRO'}, inplace=True)
+birds['Species'] = birds['SpeciesCode'].map(species_dict)
+birds = birds.fillna(value={'Species':'Error'})
+birds['SpeciesName'] = birds['Species'].apply(lambda x: x[0] if len(x)==2 else 'Error')
+birds['SpeciesGroup'] = birds['Species'].apply(lambda x: x[1] if len(x)==2 else 'Error')
+for row in range(len(birds)):
+    x = birds['Species'][row]
+    if x[1] == 'None':
+        birds.at[row, 'Species']=x[0]
+    elif x == 'Error':
+        pass
+    else:
+        birds.at[row, 'Species']=' '.join(x)
+
+# rearrange categories
+birds = birds[['ObserverID', 'Year', 'Month', 'Day', 'SurveyID', 'StartTime', 'Point',
+               'Minute', 'SpeciesCode', 'Species', 'Distance', 'How', 'Visual', 'Sex',
+               'Migrating', 'ClusterSize', 'ClusterCode', 'Notes', 'SpeciesName', 'SpeciesGroup']]
+
+for header in list(birds.columns):
+    print(valueCount(birds[header]))
+# Errors Handled 6/22/2020:
+# fix 'Error' (Species)
+# fix 'None' (SpeciesGroup)
+
+#### CLEAN (2) ####
+
+# fix 'Error' (Species)
+birds.loc[birds['Species']=='Error'] # CLIS, CHIP, TRSW, CAWR, MAGW, AMRC, AMR
+
+# fix 'None' (SpeciesGroup)
+birds.loc[birds['SpeciesGroup']=='None'] # multiple
+
+#### FEATURE ENGINEERING ####
 
 # normalize time
 minutes = birds['StartTime'].apply(lambda x: str(x).split(':')[1]).astype(int)
