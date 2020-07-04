@@ -10,12 +10,12 @@ Surveyor, analysist, project coordinator<br />
 **Colin Dobson - cdobson2@illinois.edu**<br />
 Surveyor, undergraduate researcher
 
-### <div align="center">Enrolled Farms</div>
-<div align="center">Cow Creek (400 acres)<br />
+**Enrolled Farms**<br />
+Cow Creek (400 acres)<br />
 Craver Trust (200 acres)<br />
 D & Q (80 acres)<br />
 J & W (160 acres)<br />
-R Wildflower & Fields (160 acres)</div>
+R Wildflower & Fields (160 acres)
 
 ### <div align="center">Results</div>
 **Fall 2019**<br />
