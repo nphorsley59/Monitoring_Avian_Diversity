@@ -18,10 +18,10 @@ J & W (160 acres)<br />
 R Wildflower & Fields (160 acres)
 
 ### Results 
-##### Fall 2019
+**Fall 2019**<br />
 Surveys were conducted by Noah Horsley and Colin Dobson in October at all five participating farms. This was our pilot season; our goals were to test out various data collection methods and get an idea of the time and monetary resources necessary to sample multiple times per year.
 
-##### Spring 2019
+**Spring 2019**<br />
 Surveys were conducted by Colin Dobson in late May at all five participating farms. This was our first real field season and yielded a lot of good diversity, abundance, and habitat data. At Cow Creek, our largest farm, we detected a stunning 59 species, including three Yellow-billed Cuckoos, a Great Crested Flycatcher, and two Blue Grosbeaks! At Craver Trust, our second-largest farm, we detected 56 species, including a Yellow-bellied Flycatcher (rare) and a pair of breeding Upland Sandpipers! Some other highlights included two breeding pairs of Bobolinks at R Wildlife Farm and Fields (the southern edge of their breeding range), five Cliff Swallows (unusual in conventional agriculture) at J&W, and a large population of Grasshopper Sparrows (fairly strict habitat requirements) at D&Q. Compared with the bird communities of the broader agricultural landscape in Illinois, these organic farms are incredibely diverse. They appear to be refuges for many native breeding songbirds and could play an important role in songbird conservation. The complete survey results from this season are published on Tableau Public<sup>1</sup>.<br />
 
 ### Resources
