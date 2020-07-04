@@ -24,7 +24,7 @@ Surveys were conducted by Noah Horsley and Colin Dobson in October at all five p
 **Spring 2019**<br />
 Surveys were conducted by Colin Dobson in late May at all five participating farms. This was our first real field season and yielded a lot of good diversity, abundance, and habitat data. At Cow Creek, our largest farm, we detected a stunning 59 species, including three Yellow-billed Cuckoos, a Great Crested Flycatcher, and two Blue Grosbeaks! At Craver Trust, our second-largest farm, we detected 56 species, including a Yellow-bellied Flycatcher (rare) and a pair of breeding Upland Sandpipers! Some other highlights included two breeding pairs of Bobolinks at R Wildlife Farm and Fields (the southern edge of their breeding range), five Cliff Swallows (unusual in conventional agriculture) at J&W, and a large population of Grasshopper Sparrows (fairly strict habitat requirements) at D&Q. Compared with the bird communities of the broader agricultural landscape in Illinois, these organic farms are incredibely diverse. They appear to be refuges for many native breeding songbirds and could play an important role in songbird conservation. The complete survey results from this season are published on Tableau Public<sup>1</sup>.<br />
 
-[alt text!](https://github.com/nphorsley59/Bird_Surveys/blob/master/Figures/BirdCbS_Sp2020_Table1.png "Bird Communities - Spring 2020")
+![alt text](https://github.com/nphorsley59/Bird_Surveys/blob/master/Figures/BirdCbS_Sp2020_Table1.png "Bird Communities - Spring 2020")<br/>
 
 ### <div align="center">Resources</div>
 <sup>1</sup>https://public.tableau.com/profile/noah.horsley#!/
