@@ -1,30 +1,65 @@
-# <div align="center">Monitoring of Beneficial Birds in Agricultural Ecosystems</div>
+## <div align="center">Monitoring Avian Diversity</div>
 
 ### <div align="center">Project Overview</div>
-In the Fall of 2019, a colleague and I launched the Monitoring of Beneficial Birds in Agricultural Ecosystems initiative. The purpose of this project is to connect sustainable land use practices with changes in native bird communities. We are particularly interested in species that provide ecosystem services or are of conservation concern. To date, we have completed two survey seasons (Fall 2019 and Spring 2020) at five organic farms in Ford County, Illinois. Our current goal is to secure an additional 5 years of funding ($10,000) to support seasonal surveys and an undergraduate researcher at the University of Illinois.
+In 2019, a colleague and I launched the Monitoring of Beneficial Birds in Agricultural Ecosystems Initiative. The purpose of this project is to connect sustainable land use practices with changes in native bird communities. As the sole analyst, I am responsible for transforming raw data into a format that can be quickly and easily communicated with landowners and funding agencies. For the Spring 2020 dataset, I used standard data wrangling, data cleaning, and data visualization techniques to create an interactive report.
 
-**Dallas Glazik - dglazik@gmail.com**<br />
-Outreach, communication, grants coordinator<br />
-**Noah Horsley - nphorsley59@gmail.com**<br />
-Surveyor, analysist, project coordinator<br />
-**Colin Dobson - cdobson2@illinois.edu**<br />
-Surveyor, undergraduate researcher
+### <div align="center">Data Wrangling</div>
 
-**Enrolled Farms**<br />
-Cow Creek (400 acres)<br />
-Craver Trust (200 acres)<br />
-D & Q (80 acres)<br />
-J & W (160 acres)<br />
-R Wildflower & Fields (160 acres)
+Avian count data is collected and entered as 4-letter "Alpha" codes. While these codes are meaningful to ornithologists, they do a poor job of communicating study results to the general public. I decided I'd need to present full species names when reporting data for this project. I used Python to turn this table (Figure 1) published by The Institute for Bird Populations<sup>2</sup> into a Python dictionary (Figure 2). I then used the dictionary to connect 4-letter "Alpha" codes in my dataset to the full English species names.<br />
 
-### <div align="center">Results</div>
-**Fall 2019**<br />
-Surveys were conducted by Noah Horsley and Colin Dobson in October at all five participating farms. This was our pilot season; our goals were to test out various data collection methods and get an idea of the time and monetary resources necessary to sample multiple times per year.
+**Figure 1.** A small sample of the over 2,100 bird species that have been assigned 4-letter "Alpha" codes.<br />
 
-**Spring 2019**<br />
-Surveys were conducted by Colin Dobson in late May at all five participating farms. This was our first real field season and yielded a lot of good diversity, abundance, and habitat data. At Cow Creek, our largest farm, we detected a stunning 59 species, including three Yellow-billed Cuckoos, a Great Crested Flycatcher, and two Blue Grosbeaks! At Craver Trust, our second-largest farm, we detected 56 species, including a Yellow-bellied Flycatcher (rare) and a pair of breeding Upland Sandpipers! Some other highlights included two breeding pairs of Bobolinks at R Wildlife Farm and Fields (the southern edge of their breeding range), five Cliff Swallows (unusual in conventional agriculture) at J&W, and a large population of Grasshopper Sparrows (fairly strict habitat requirements) at D&Q. Compared with the bird communities of the broader agricultural landscape in Illinois, these organic farms are incredibely diverse. They appear to be refuges for many native breeding songbirds and could play an important role in songbird conservation. The complete survey results from this season are published on Tableau Public<sup>1</sup>.<br />
+![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Bird_Species_Codes_Table1.png "Alpha Codes to English Names Table")<br />
 
-![alt text](https://github.com/nphorsley59/Bird_Surveys/blob/master/Figures/BirdCbS_Sp2020_Table1.png "Bird Communities - Spring 2020")<br/>
+**Figure 2.** The same sample after being transformed into a Python dictionary.<br />
+
+![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Bird_Species_Codes_Table2.png "Alpha Codes to English Names Dictionary")<br />
+
+### <div align="center">Data Cleaning</div>
+
+After establishing an "Alpha" codes reference dictionary, I began cleaning the Monitoring of Beneficial Birds in Agricultural Ecosystems Initiative dataset. I find data cleaning to be most effecient and thorough when divided into phases. For this project, I used the following approach:
+
+#### Phase 1 - Identification
+The first phase was to identify general problems with the dataset. I used .dtypes and a .value_counts() loop to create a fast summary of each column. I then used this summary to list out obvious tasks (Figure 3). While this was a good start, I had not addressed the possibility of NaNs in the dataset. To view NaNs, I used .isna().sum().sort_values(ascending=False) to view NaNs by column (Figure 4). Again, I listed out any obvious cleaning tasks.
+
+**Figure 3.** An organized approach to cleaning data.<br /> 
+
+![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Data_Cleaning_Table1.png "Data Cleaning Tasks")<br />
+
+**Figure 4.** A simple method for summarizing NaNs in a dataset.<br /> 
+
+![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Data_Cleaning_Table2.1.png "Table of NaNs by Column")<br />
+
+#### Phase 2 - Cleaning
+The second phase was to complete tasks identified in Phase 1. I used common indexing functions, such as .loc/iloc and .at/iat, to identify and address typos and other minor errors. More widespread problems were addressed using more powerful functions and techniques, such as .replace(), .fillna(), lambda functions, loops, and custom functions (Figure 5).
+
+**Figure 5.** A loop used to move data that had been entered into the wrong column.<br />
+
+![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Data_Cleaning_Table3.png "Moving Data with a Loop")<br />
+
+#### Phase 3 - Quality Assurance
+The third phase was to repeat Phase 1 and, if necessary, Phase 2 to ensure nothing was missed in the initial cleaning process. In this particular project, I was unable to link English species names to the "Alpha" codes in my dataset until some obvious errors had been fixed i.e. until after Phases 1 and 2. However, after linking the English species names to the "Alpha" codes, it quickly became clear that errors existed in the "Alpha" codes column (Figure 6). These errors were difficult to catch in Phases 1 and 2 because they existed in a diverse categorical variable with no 'reference' set available for verification. I find this second round of cleaning, which I call "Quality Assurance", to be most useful in large or error-prone datasets.
+
+**Figure 6.** Identifying rows with "Alpha" code (SpeciesCode column) errors.<br />
+
+![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Data_Cleaning_Table4.png "Alpha Code Errors")<br />
+
+#### Phase 4 - Usability
+The final phase was to increase the usability and readability of the dataset. A "clean" dataset that is difficult to understand/interpret is not very useful for analysis. For this dataset, I cleaned up uneccesary codes, renamed some columns, reordered the columns, and transformed some discrete data (e.g. StartTime) into continuous data. The final product was a clean, organized, easy-to-read dataset that was ready for analysis (Figure 7).
+
+**Figure 7.** A cleaned sample from the Spring 2020 dataset.<br />
+
+![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Data_Cleaning_Table5.1.png "Cleaned Dataset")<br />
+
+### <div align="center">Visualization Using Tableau</div>
+
+I used Tableau to visualize the results of our Spring 2020 surveys. I have included a sample plot below (Figure 8). The full workbook<sup>3</sup> can be found on Tableau Public.<br />
+
+**Figure 8.** A bar chart showing prominent members of the bird community (>10 individuals) at each site.
+
+![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/BirdCbS_Sp2020_Table1.png "Bird Community by Site")<br />
 
 ### <div align="center">Resources</div>
-<sup>1</sup>https://public.tableau.com/profile/noah.horsley#!/
+<sup>1</sup> https://www.cowcreekorganics.com/about<br />
+<sup>2</sup> https://www.birdpop.org/docs/misc/Alpha_codes_eng.pdf<br />
+<sup>3</sup> https://public.tableau.com/profile/noah.horsley#!/<br />
