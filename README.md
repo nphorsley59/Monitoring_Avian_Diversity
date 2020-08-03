@@ -9,11 +9,11 @@ Avian count data is collected and entered as 4-letter "Alpha" codes. While these
 
 **Figure 1.** A small sample of the over 2,100 bird species that have been assigned 4-letter "Alpha" codes.<br />
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Bird_Species_Codes_Table1.png "Alpha Codes to English Names Table")<br />
+![alt text](https://github.com/nphorsley59/Monitoring_Avian_Diversity/blob/master/Figures/Bird_Species_Codes_Table1.png "Alpha Codes to English Names Table")<br />
 
 **Figure 2.** The same sample after being transformed into a Python dictionary.<br />
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Bird_Species_Codes_Table2.png "Alpha Codes to English Names Dictionary")<br />
+![alt text](https://github.com/nphorsley59/Monitoring_Avian_Diversity/blob/master/Figures/Bird_Species_Codes_Table2.png "Alpha Codes to English Names Dictionary")<br />
 
 ### <div align="center">Data Cleaning</div>
 
@@ -24,32 +24,32 @@ The first phase was to identify general problems with the dataset. I used .dtype
 
 **Figure 3.** An organized approach to cleaning data.<br /> 
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Data_Cleaning_Table1.png "Data Cleaning Tasks")<br />
+![alt text](https://github.com/nphorsley59/Monitoring_Avian_Diversity/blob/master/Figures/Data_Cleaning_Table1.png "Data Cleaning Tasks")<br />
 
 **Figure 4.** A simple method for summarizing NaNs in a dataset.<br /> 
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Data_Cleaning_Table2.1.png "Table of NaNs by Column")<br />
+![alt text](https://github.com/nphorsley59/Monitoring_Avian_Diversity/blob/master/Figures/Data_Cleaning_Table2.1.png "Table of NaNs by Column")<br />
 
 #### Phase 2 - Cleaning
 The second phase was to complete tasks identified in Phase 1. I used common indexing functions, such as .loc/iloc and .at/iat, to identify and address typos and other minor errors. More widespread problems were addressed using more powerful functions and techniques, such as .replace(), .fillna(), lambda functions, loops, and custom functions (Figure 5).
 
 **Figure 5.** A loop used to move data that had been entered into the wrong column.<br />
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Data_Cleaning_Table3.png "Moving Data with a Loop")<br />
+![alt text](https://github.com/nphorsley59/Monitoring_Avian_Diversity/blob/master/Figures/Data_Cleaning_Table3.png "Moving Data with a Loop")<br />
 
 #### Phase 3 - Quality Assurance
 The third phase was to repeat Phase 1 and, if necessary, Phase 2 to ensure nothing was missed in the initial cleaning process. In this particular project, I was unable to link English species names to the "Alpha" codes in my dataset until some obvious errors had been fixed i.e. until after Phases 1 and 2. However, after linking the English species names to the "Alpha" codes, it quickly became clear that errors existed in the "Alpha" codes column (Figure 6). These errors were difficult to catch in Phases 1 and 2 because they existed in a diverse categorical variable with no 'reference' set available for verification. I find this second round of cleaning, which I call "Quality Assurance", to be most useful in large or error-prone datasets.
 
 **Figure 6.** Identifying rows with "Alpha" code (SpeciesCode column) errors.<br />
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Data_Cleaning_Table4.png "Alpha Code Errors")<br />
+![alt text](https://github.com/nphorsley59/Monitoring_Avian_Diversity/blob/master/Figures/Data_Cleaning_Table4.png "Alpha Code Errors")<br />
 
 #### Phase 4 - Usability
 The final phase was to increase the usability and readability of the dataset. A "clean" dataset that is difficult to understand/interpret is not very useful for analysis. For this dataset, I cleaned up uneccesary codes, renamed some columns, reordered the columns, and transformed some discrete data (e.g. StartTime) into continuous data. The final product was a clean, organized, easy-to-read dataset that was ready for analysis (Figure 7).
 
 **Figure 7.** A cleaned sample from the Spring 2020 dataset.<br />
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/Data_Cleaning_Table5.1.png "Cleaned Dataset")<br />
+![alt text](https://github.com/nphorsley59/Monitoring_Avian_Diversity/blob/master/Figures/Data_Cleaning_Table5.1.png "Cleaned Dataset")<br />
 
 ### <div align="center">Visualization Using Tableau</div>
 
@@ -57,7 +57,7 @@ I used Tableau to visualize the results of our Spring 2020 surveys. I have inclu
 
 **Figure 8.** A bar chart showing prominent members of the bird community (>10 individuals) at each site.
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/AAD_Figures/BirdCbS_Sp2020_Table1.png "Bird Community by Site")<br />
+![alt text](https://github.com/nphorsley59/Monitoring_Avian_Diversity/blob/master/Figures/BirdCbS_Sp2020_Table1.png "Bird Community by Site")<br />
 
 ### <div align="center">Resources</div>
 <sup>1</sup> https://www.cowcreekorganics.com/about<br />
